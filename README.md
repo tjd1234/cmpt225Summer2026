@@ -1,8 +1,4 @@
-# CMPT 383, Summer 2026 (SFU Surrey)
-
-Notes, assignments, and code samples will be posted here.
-
-## Lecture Notes
+# CMPT 225, Summer 2026 (SFU Surrey)
 
 Notes and code samples will be posted here a we go. The times are approximate
 and may change. The exact topics and order may also change.
