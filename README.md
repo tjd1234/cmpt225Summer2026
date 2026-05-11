@@ -65,6 +65,16 @@ sudo apt-get install git g++ make valgrind
 For macOS, check out [the Homebrew package manager](https://brew.sh) as a way to
 install any missing software.
 
+You should can test that your environment is working by typing this command
+(make sure you have the file [hello_world.cpp](hello_world.cpp) and
+[makefile](makefile) in the same folder):
+
+```bash
+$ make hello_world
+$ ./hello_world
+Hello, world!
+```
+
 Generally, searching the web for "how do I install X on Windows" or "how do I
 install X on Mac" will lead you to instructions for installing X. 
 
