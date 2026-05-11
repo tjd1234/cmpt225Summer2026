@@ -33,10 +33,6 @@ This course uses C++ (C++17). Here are some links to help you get started:
 program . You can install other tools (like `make`) using [the Homebrew package
 manager](https://brew.sh).
 
-**On a Mac**, you can use the Terminal that comes with it and install the
-necessary software for this course (`g++`, `make`, and `valgrind`) using a
-package manager such as [MacPorts](https://ports.macports.org/) or
-[Homebrew](https://brew.sh/). 
 
 ### Getting Your C++ Environment Up and Running
 
