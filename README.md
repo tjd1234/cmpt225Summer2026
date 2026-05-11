@@ -1,11 +1,72 @@
 # CMPT 225, Summer 2026 (SFU Surrey)
 
-Notes and code samples will be posted here a we go. The times are approximate
-and may change. The exact topics and order may also change.
-
-The chapter and section reference textbook refer to 
-[Data Structures and Algorithms in C++, 2nd Edition](DSA2nd.pdf).
+Textbook: [Data Structures and Algorithms in C++, 2nd Edition](DSA2nd.pdf).
 
 [This spreadsheet has the planned topics and dates for the course](https://1sfu-my.sharepoint.com/:x:/g/personal/tjd_sfu_ca/IQAMB0cxlTYlR6FqjTY8HIEGAc5WoHx7MTnvSNdphw0gW00?e=qEjSUU). It's possible
 that some topics may take more/less time, so the topics are not exact.
 
+## Using C++
+
+This course uses C++ (C++17). Here are some links to help you get started:
+
+**On Windows**, a good way to use C++ is to use the Windows Subsystem for Linux (WSL):
+
+- **Step 1**: [Install the Windows Terminal through the Microsoft Store](https://aka.ms/terminal). 
+  This will give you a nice modern command-line for using WSL.
+
+- **Step 2**: Follow the instructions here: [Installing WSL on Windows 10/11](https://docs.microsoft.com/en-us/windows/wsl/install).
+
+- **Step 3**: Using WSL
+  - On Windows, the name of the main disk drive is usually "C:", and in WSL the
+    C: drive is in the folder `/mnt/c`.  Your desktop folder should be in
+    `/mnt/c/Users/<loginname>`.
+
+    For example, if your Windows login name is `bgates`, then the terminal command
+    `cd /mnt/c/Users/bgates` should take you to your desktop folder. 
+
+    Any other disks you have can be accessed similarly, e.g. if you have a D: drive it's at `/mnt/d`.
+
+  - For editing your files and running C++ programs, the [VS Code text editor](https://code.visualstudio.com/) is an excellent (and
+    free!) programming editor that also has direct support for WSL. You can run this in Windows.
+
+**On Mac**, you can use the C++ compiler that comes with the standard Terminal
+program . You can install other tools (like `make`) using [the Homebrew package
+manager](https://brew.sh).
+
+**On a Mac**, you can use the Terminal that comes with it and install the
+necessary software for this course (`g++`, `make`, and `valgrind`) using a
+package manager such as [MacPorts](https://ports.macports.org/) or
+[Homebrew](https://brew.sh/). 
+
+### Getting Your C++ Environment Up and Running
+
+To compile and run C++ programs, you'll want at least these programs installed on your computer:
+
+- `g++` (for Linux) or `c++` (for macOS) are the compilers we're using in this
+  course. A compilers converts C++ source code files into an executable program.
+- `make` is a "build tool" that simplifies calling the compiler with the correct
+  options.
+- A memory checking tool to check for  [[memory leak|memory leaks]]. On Linux,
+  `valgrind` is a good choice (you can install it using the `apt` command given
+  below), and on macOS `leaks` is good (it should come already installed), e.g.
+  `leaks -atExit -- ./prog` will run `prog` and check for leaks.
+- `git` is used for version control, and, while not strictly needed for this
+  course, it is a standard development tool that makes it easy to upload/download
+  code on websites like [Github](https://githib.com/).
+- A coding editor, such as the popular (and free!) [Visual Studio Code](https://code.visualstudio.com/). 
+
+For Ubuntu Linux (e.g. on Windows WSL), you can install most of the needed
+software by typing this command into a terminal:
+
+```bash
+sudo apt-get install git g++ make valgrind
+```
+
+For macOS, check out [the Homebrew package manager](https://brew.sh) as a way to
+install any missing software.
+
+Generally, searching the web for "how do I install X on Windows" or "how do I
+install X on Mac" will lead you to instructions for installing X. 
+
+Also, AI and the web can be very helpful when dealing with error messages, or
+figuring out how to install or uses particular software.
