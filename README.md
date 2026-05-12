@@ -5,6 +5,8 @@ Textbook: [Data Structures and Algorithms in C++, 2nd Edition](DSA2nd.pdf).
 [This spreadsheet has the planned topics and dates for the course](https://1sfu-my.sharepoint.com/:x:/g/personal/tjd_sfu_ca/IQAMB0cxlTYlR6FqjTY8HIEGAc5WoHx7MTnvSNdphw0gW00?e=qEjSUU). It's possible
 that some topics may take more/less time, so the topics are not exact.
 
+[Notes for lectures are posted here](lectures).
+
 ## Using C++
 
 This course uses C++ (C++17). Here are some links to help you get started:
