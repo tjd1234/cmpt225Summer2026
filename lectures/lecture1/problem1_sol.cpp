@@ -108,9 +108,44 @@ void solution3()
     }
 }
 
+void solution4()
+{
+    // using a constant makes it easy to change the array size
+    const int N = 9;
+
+    // make the array
+    // int arr[N];
+    int* arr = new int[N];
+
+    // initialize the array
+    for (int i = 0; i < N; i++)
+    {
+        switch (i % 3)
+        {
+        case 0:
+            arr[i] = 4;
+            break;
+        case 1:
+            arr[i] = 5;
+            break;
+        case 2:
+            arr[i] = 9;
+        }
+    }
+
+    // print the results
+    for (int i = 0; i < N; i++)
+    {
+        cout << "arr[" << i << "] = " << arr[i] << endl;
+    }
+
+    delete[] arr;
+}
+
 int main()
 {
-    solution1();
+    // solution1();
     // solution2();
     // solution3();
+    solution4();
 }
