@@ -1,11 +1,15 @@
 # CMPT 225, Summer 2026 (SFU Surrey)
 
-Textbook: [Data Structures and Algorithms in C++, 2nd Edition](DSA2nd.pdf).
+- Textbook: [Data Structures and Algorithms in C++, 2nd Edition](DSA2nd.pdf).
 
-[Planned topics and dates for the course](https://1sfu-my.sharepoint.com/:x:/g/personal/tjd_sfu_ca/IQAMB0cxlTYlR6FqjTY8HIEGAbhh3mXfGRtQ_PyX2pJpMwk?e=3cE3bl). It's possible
+- [Planned topics and dates for the course](https://1sfu-my.sharepoint.com/:x:/g/personal/tjd_sfu_ca/IQAMB0cxlTYlR6FqjTY8HIEGAbhh3mXfGRtQ_PyX2pJpMwk?e=3cE3bl). It's possible
 that some topics may take more/less time, so the topics are not exact.
 
-[Notes from lectures are posted here](lectures).
+- [Notes from lectures are posted here](lectures).
+
+## Problem Sets
+
+- [Quiz 1 problem set](quiz1_problemset.md). 
 
 ## Using C++
 
