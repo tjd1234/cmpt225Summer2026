@@ -112,26 +112,26 @@ yourself!
 8. For each of the following algorithms, give the tightest $O$-notation bound
    for the worst-case running time of each algorithm.
 
-  a. Sorting an array of $n$ integers using insertion sort
+   a. Sorting an array of $n$ integers using insertion sort
 
-  b. Sorting an array of $5n$ integers using insertion sort
+   b. Sorting an array of $5n$ integers using insertion sort
 
-  c. Finding the min value of an a singly-linked list of $n$ integers
+   c. Finding the min value of an a singly-linked list of $n$ integers
 
-  d. Calculating $a^n$, where $a$ and $n$ are integers bigger than 1, and it does
-     in the "obvious" method of repeated multiplication.
+   d. Calculating $a^n$, where $a$ and $n$ are integers bigger than 1, and it does
+      in the "obvious" method of repeated multiplication.
 
-  e. Calculating $a^n$, where $a$ and $n$ are integers bigger than 1, and it does
-     in the "repeated squaring" method (see section 4.2.6 of the textbook).
+   e. Calculating $a^n$, where $a$ and $n$ are integers bigger than 1, and it does
+      in the "repeated squaring" method (see section 4.2.6 of the textbook).
   
-  f. Testing a doubly-linked list of $n$ integers is in sorted order from
-     smallest to largest.
+   f. Testing a doubly-linked list of $n$ integers is in sorted order from
+      smallest to largest.
 
-  g. Calculating the sum $1 + 2 + 3 + ... + n$ using a loop.
+   g. Calculating the sum $1 + 2 + 3 + ... + n$ using a loop.
 
-  h. Calculating the sum $1 + 2 + 3 + ... + n$ using recursion.
+   h. Calculating the sum $1 + 2 + 3 + ... + n$ using recursion.
   
-  i. Calculating the sum $1 + 2 + 3 + ... + n$ using the formula $\frac{n(n+1)}{2}$.
+   i. Calculating the sum $1 + 2 + 3 + ... + n$ using the formula $\frac{n(n+1)}{2}$.
 
 9. What is a **loop invariant**? Why would you use one? Give some examples of
    loop invariants for this loop:
